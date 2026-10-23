@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HobbyDex | Craft Kits & DIY Supplies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    Free nationwide shipping on DIY starter packs over PHP 1,500!
+  </div>
+
+  <header class="navbar">
+    <div class="container navbar-container">
+      <div class="logo">HobbyDex</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <span class="hero-badge">New Spring Collection</span>
+        <h1>Discover Your Next Creative Passion</h1>
+        <p>Explore our premium handmade craft kits, cozy yarn bundles, and all-in-one DIY starter packs designed for creators.</p>
+        <div class="hero-btns">
+          <a href="#products" class="btn btn-rose">Shop Collections</a>
+          <a href="#about" class="btn btn-sage">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="about-card">
+          <h2>About <span class="brand-font">HobbyDex</span></h2>
+          <p class="about-text">HobbyDex is an online specialty store dedicated to supplying makers and hobbyists with high-quality, inspiring materials. Whether you are learning a new craft or stocking up on premium yarn, we provide everything you need to bring your creative projects to life.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section services-section">
+      <div class="container">
+        <h2>Our Craft Collections</h2>
+        <div class="services-grid">
+          
+          <div class="service-card card-yarn">
+            <div class="card-header header-rose">
+              <span class="card-tag">Bestseller</span>
+            </div>
+            <div class="card-body">
+              <h3>Cozy Yarn Bundles</h3>
+              <p>Ultra-soft, premium yarn collections curated in stunning warm colorways for all your knitting and crocheting projects.</p>
+              <a href="#contact" class="btn btn-card btn-rose-sm">Explore Bundles &rarr;</a>
+            </div>
+          </div>
+
+          <div class="service-card card-kits">
+            <div class="card-header header-dark">
+              <span class="card-tag tag-rose">Limited Edition</span>
+            </div>
+            <div class="card-body">
+              <h3>Handmade Craft Kits</h3>
+              <p>Thoughtfully assembled kits featuring embroidery, stitching, and modern DIY projects complete with instructions.</p>
+              <a href="#contact" class="btn btn-card btn-forest-sm">View Kits &rarr;</a>
+            </div>
+          </div>
+
+          <div class="service-card card-packs">
+            <div class="card-header header-sage">
+              <span class="card-tag">Beginner Friendly</span>
+            </div>
+            <div class="card-body">
+              <h3>DIY Starter Packs</h3>
+              <p>All-in-one beginner starter bundles equipped with all the essential tools and supplies to launch your new hobby.</p>
+              <a href="#contact" class="btn btn-card btn-sage-sm">Get Started &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <p><strong>Email:</strong> support@hobbydex.com</p>
+            <p><strong>Phone:</strong> +63 (02) 8987-6543</p>
+            <p><strong>Location:</strong> Metro Manila, Philippines</p>
+          </div>
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent!');">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn btn-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 HobbyDex. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
